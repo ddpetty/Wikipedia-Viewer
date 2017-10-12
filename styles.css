@@ -1,14 +1,14 @@
 .title {
 	text-align: center;
 	font-size: 5rem;
-	margin: 2rem;	
+	margin: 15rem 2rem 1.75rem 2rem;	
 }
-/* Small phones title */
 
 @media (max-width:767px) {
-    	.title {
-        	font-size: 2.0rem;
-    	}
+	.title {
+     	font-size: 2.0rem;
+     	margin: 5rem 2rem .75rem 2rem;
+    }
 }
 
 /*   Wiki Logo Image    */
@@ -18,18 +18,35 @@
 	vertical-align: middle;
 }
 
+@media (max-width:767px) {
+	#wiki-logo {
+		height: 2rem;
+		width: 2rem;
+		
+    }
+}
+
 /*     Search bar and button     */
 
 #search-text{
 	text-align: center;
 }
+
 #search-bar {
 	height: 2.3rem;
 	width: 30rem;
-	border-radius: 30px 0px 0px 30px;
+	border-radius: 1.875rem 0rem 0rem 1.875rem;
 	border-color: #3366CC;
-
 }
+
+@media (max-width:767px) {
+	#search-bar {
+		height: 2rem;
+		width: 15rem;
+		margin: .5rem 1.2rem;
+    }
+}
+
 #search-bar[placeholder] {
 	font-size: 1.2rem;
 	padding-left: 1rem;
@@ -39,14 +56,30 @@
 	vertical-align: bottom;
 	margin-left: -.5rem;
 }
+
+@media (max-width:767px) {
+	#search-container {
+		margin: -.4rem 0rem 0rem -1.5rem;
+		vertical-align: middle;
+
+    }
+}
 #search-button {
 	height: 2.3rem;
 	width: 2.5rem;
-	border-radius: 0px 30px 30px 0px;
+	border-radius: 0rem 1.875rem 1.875rem 0rem;
 	border-color: #3366CC;
 	background: #3366CC;
 	color: #fff;
 }
+
+@media (max-width:767px) {
+	#search-button {
+		height: 2rem;
+		width: 2.5rem;
+    }
+}
+
 
 /*   Random button area */
 #random-container {
@@ -57,7 +90,7 @@
 	height: 2.3rem;
 	width: 11rem;
 	font-size: 1.0rem;
-	border-radius: 30px;
+	border-radius: 1.875rem;
 	border-color: #3366CC;
 	background: #3366CC;
 	color: #fff;
