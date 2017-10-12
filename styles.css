@@ -11,7 +11,40 @@
     	}
 }
 
-.search-bar {
+/*     Search bar and button     */
+
+#search-text{
 	text-align: center;
 }
+#search-bar {
+	height: 2.3rem;
+	width: 30rem;
+	border-radius: 30px 0px 0px 30px;
 
+}
+#search-bar[placeholder] {
+	font-size: 1.2rem;
+	padding-left: 1rem;
+}
+#search-container {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: -.5rem;
+}
+#search-button {
+	height: 2.3rem;
+	width: 2.5rem;
+	border-radius: 0px 30px 30px 0px;
+}
+
+/*   Random button area */
+#random-container {
+	text-align: center;
+	margin: 1rem;
+}
+#random-button {
+	height: 2.5rem;
+	width: 15rem;
+	font-size: 1.0rem;
+	border-radius: 30px;
+}
