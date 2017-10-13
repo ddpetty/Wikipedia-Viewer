@@ -95,3 +95,10 @@
 	background: #3366CC;
 	color: #fff;
 }
+
+/*   Search Results */
+
+.search-results {
+	font-size: 20px;
+	width: 50px;
+}
