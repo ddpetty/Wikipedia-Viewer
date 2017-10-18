@@ -86,14 +86,17 @@
 	text-align: center;
 	margin: 1rem;
 }
-#random-button {
+.random-button {
 	height: 2.3rem;
 	width: 11rem;
 	font-size: 1.0rem;
 	border-radius: 1.875rem;
 	border-color: #3366CC;
 	background: #3366CC;
+}
+.random-button a {
 	color: #fff;
+
 }
 
 /*   Search Results */
