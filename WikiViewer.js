@@ -1,6 +1,7 @@
 $(function() {
  /* https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages
  |extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=dionne&callback=? */
+ //Todos: Hover affects. Media queries. Link random article button. Keycode enter button for searches. Implement continuous searches.
 
  	$('#search-button').click(function(){
  		const searchBar = $('#search-bar').val();
@@ -17,19 +18,15 @@ $(function() {
 
 
 			for (let key in articles) {
-			let title = articles[key].title,
-				description = articles[key].extract;
-			$('.search-results').append('<div class="result-title">'+ '<a href="#">'+title+'<a>'+ '</br>' +description+ '</div>');
+				let title = articles[key].title,
+				description = articles[key].extract,
+				pageid = articles[key].pageid,
+				link = "https://en.wikipedia.org/?curid=" +pageid;
+
+			$('.search-results').append('<div class="result-title">'+ '<a href="'+link+'" target="_blank">'+title+'</a>'
+				+ '</br>' + '<div class="result-p">' +description+ '</div></div>');
 				
 			}
-
-			
-
-			
-
-	
-			
-			
 
 			},
 			error: function(error) {

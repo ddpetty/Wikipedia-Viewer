@@ -104,14 +104,21 @@
 
 	
 }
+a {
+	text-decoration: none;
+}
 
 .result-title {
 	color: black;
 	width: 35rem;
-	margin: 3rem auto;
+	margin: 2.0rem auto;
+	text-decoration: none;
+	text-align: left;
+	border: 1px solid #3366CC;
+	padding: 1rem;
 	
 }
 
-a .result-title {
-	text-decoration: none;
+.result-p {
+	margin-top: .75rem;
 }
