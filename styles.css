@@ -99,6 +99,19 @@
 /*   Search Results */
 
 .search-results {
+	text-align: center;
 	font-size: 20px;
-	width: 50px;
+
+	
+}
+
+.result-title {
+	color: black;
+	width: 35rem;
+	margin: 3rem auto;
+	
+}
+
+a .result-title {
+	text-decoration: none;
 }
