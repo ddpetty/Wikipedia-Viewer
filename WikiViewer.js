@@ -1,7 +1,7 @@
 $(function() {
  /* https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages
  |extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=dionne&callback=? */
- //Todos: Hover affects. Make this functional in IE. 
+ //Todos: Make this functional in IE. 
  	
  	$('#search-button').click(function(){
  		const searchBar = $('#search-bar').val();
