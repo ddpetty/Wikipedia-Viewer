@@ -101,14 +101,14 @@ a {
 	font-family: 'Work Sans', sans serif;
 	font-weight: bold;
 	color: #3366CC;
-	font-size: 2.0rem;
+	font-size: 1.5rem;
 
 }
 
 .result-p {
 	margin-top: .75rem;
 	font-family: 'Open Sans', sans serif;
-	font-size: 1.5rem;
+	font-size: 1.0rem;
 }
 
 /*    Media Queries */
